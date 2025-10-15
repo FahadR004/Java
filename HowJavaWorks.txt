@@ -1,0 +1,22 @@
+How Java Works?
+
+To develop an application, you need JDK for compiling. But what about deploying on the client side?
+
+We use JRE or Java Runtime Environment and JVM or Java Virtual Machine to deploy
+
+JDK has
+JRE 
+which has 
+JVM 
+
+JVM has a heap memory which has all the objects.
+For every method created, a stack will be created.
+
+new <Constructor()> will create a object in the memory
+
+Your ref var that you created is in the main memory's stack. It's address is in the heap memory which is what be assigned to the ref var in the stack.
+
+If you use the same constructor of the same class meaning you instantiate two variables of the same class, two objects are created in the heap memory for each reference variable in the stack.
+
+Thus, we have a fixed shape stack and expendable heap shape.   (Not size)
+
