@@ -20,3 +20,17 @@ If you use the same constructor of the same class meaning you instantiate two va
 
 Thus, we have a fixed shape stack and expendable heap shape.   (Not size)
 
+Every method will have it's own stack,
+
+Making an instance variable static means storing outside the individual objects meaning making it available to every object created of that class. A global variable in a sense. Thus, you can also access the variable with just the className.
+
+Keyboard.brand
+
+Thus, static variables also don't need objects to be called.
+
+Hence, the main method is static. main() is the starting point of execution/ the entry point in Java. If it's not static, it will we will need to object to call the main function. But, you will need the main function to create a object. Thus, it would be a deadlock. So, we need to make the main function static.
+
+Every instance variable will have a copy in the heap memory
+Local go in to stack
+
+Every time you compile a Java file, it will create n class files where n is the number of classes. These class files or bytecode are run by the JVM. Hence, Java is a platform independent language. Wherever you have JVM, you can run Java.
